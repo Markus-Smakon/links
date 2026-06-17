@@ -113,7 +113,6 @@
 .qrcode {
 	width: 8rem;             /* 128px */
 	height: 8rem;
-	border-radius: 50%;
 	object-fit: cover;
 	background-position: center;
 	margin-bottom: var(--spacing-l);
