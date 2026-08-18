@@ -77,6 +77,17 @@
   --spacing-xxl:4rem;       /* 64px */
 }
 
+.qrcode {
+	width: 8rem;             /* 128px */
+	height: 8rem;
+	object-fit: cover;
+	background-position: center;
+	margin-bottom: var(--spacing-l);
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+  }
+
 /* Avatar */
 .avatar {
 	width: 8rem;             /* 128px */
@@ -196,6 +207,8 @@ a:hover {
   .avatar--soft {
 	border-radius: 0.5rem;   /* 8px rounded corners */
   }
+
+
 
 /* Theme System
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
